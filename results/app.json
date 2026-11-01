@@ -1,0 +1,760 @@
+{
+ "shape": [
+  96,
+  192,
+  192
+ ],
+ "spacing_mm": [
+  2.5,
+  0.8,
+  0.8
+ ],
+ "scans": 10,
+ "dice_mean": 0.8502555295896497,
+ "summary": {
+  "0": {
+   "sensitivity_mean": 0.9267973856209151,
+   "fp_per_scan_mean": 725.5,
+   "pred_lesions_mean": 741.8,
+   "gt_lesions_mean": 17.7
+  },
+  "5": {
+   "sensitivity_mean": 0.8931372549019608,
+   "fp_per_scan_mean": 24.8,
+   "pred_lesions_mean": 40.5,
+   "gt_lesions_mean": 17.7
+  },
+  "10": {
+   "sensitivity_mean": 0.8931372549019608,
+   "fp_per_scan_mean": 24.7,
+   "pred_lesions_mean": 40.4,
+   "gt_lesions_mean": 17.7
+  },
+  "20": {
+   "sensitivity_mean": 0.8931372549019608,
+   "fp_per_scan_mean": 22.7,
+   "pred_lesions_mean": 38.4,
+   "gt_lesions_mean": 17.7
+  },
+  "40": {
+   "sensitivity_mean": 0.8931372549019608,
+   "fp_per_scan_mean": 15.7,
+   "pred_lesions_mean": 31.4,
+   "gt_lesions_mean": 17.7
+  },
+  "80": {
+   "sensitivity_mean": 0.8931372549019608,
+   "fp_per_scan_mean": 4.5,
+   "pred_lesions_mean": 20.2,
+   "gt_lesions_mean": 17.7
+  },
+  "160": {
+   "sensitivity_mean": 0.8931372549019608,
+   "fp_per_scan_mean": 0.0,
+   "pred_lesions_mean": 15.7,
+   "gt_lesions_mean": 17.7
+  }
+ },
+ "rows": [
+  {
+   "scan": 0,
+   "min_volume_mm3": 0,
+   "dice": 0.8180065121866406,
+   "gt": 18,
+   "detected": 15,
+   "pred": 745,
+   "false_positives": 730,
+   "sensitivity": 0.8333333333333334
+  },
+  {
+   "scan": 0,
+   "min_volume_mm3": 5,
+   "dice": 0.8180065121866406,
+   "gt": 18,
+   "detected": 14,
+   "pred": 39,
+   "false_positives": 25,
+   "sensitivity": 0.7777777777777778
+  },
+  {
+   "scan": 0,
+   "min_volume_mm3": 10,
+   "dice": 0.8180065121866406,
+   "gt": 18,
+   "detected": 14,
+   "pred": 39,
+   "false_positives": 25,
+   "sensitivity": 0.7777777777777778
+  },
+  {
+   "scan": 0,
+   "min_volume_mm3": 20,
+   "dice": 0.8180065121866406,
+   "gt": 18,
+   "detected": 14,
+   "pred": 36,
+   "false_positives": 22,
+   "sensitivity": 0.7777777777777778
+  },
+  {
+   "scan": 0,
+   "min_volume_mm3": 40,
+   "dice": 0.8180065121866406,
+   "gt": 18,
+   "detected": 14,
+   "pred": 29,
+   "false_positives": 15,
+   "sensitivity": 0.7777777777777778
+  },
+  {
+   "scan": 0,
+   "min_volume_mm3": 80,
+   "dice": 0.8180065121866406,
+   "gt": 18,
+   "detected": 14,
+   "pred": 21,
+   "false_positives": 7,
+   "sensitivity": 0.7777777777777778
+  },
+  {
+   "scan": 0,
+   "min_volume_mm3": 160,
+   "dice": 0.8180065121866406,
+   "gt": 18,
+   "detected": 14,
+   "pred": 14,
+   "false_positives": 0,
+   "sensitivity": 0.7777777777777778
+  },
+  {
+   "scan": 1,
+   "min_volume_mm3": 0,
+   "dice": 0.8907579210940259,
+   "gt": 18,
+   "detected": 18,
+   "pred": 782,
+   "false_positives": 765,
+   "sensitivity": 1.0
+  },
+  {
+   "scan": 1,
+   "min_volume_mm3": 5,
+   "dice": 0.8907579210940259,
+   "gt": 18,
+   "detected": 17,
+   "pred": 40,
+   "false_positives": 24,
+   "sensitivity": 0.9444444444444444
+  },
+  {
+   "scan": 1,
+   "min_volume_mm3": 10,
+   "dice": 0.8907579210940259,
+   "gt": 18,
+   "detected": 17,
+   "pred": 39,
+   "false_positives": 23,
+   "sensitivity": 0.9444444444444444
+  },
+  {
+   "scan": 1,
+   "min_volume_mm3": 20,
+   "dice": 0.8907579210940259,
+   "gt": 18,
+   "detected": 17,
+   "pred": 36,
+   "false_positives": 20,
+   "sensitivity": 0.9444444444444444
+  },
+  {
+   "scan": 1,
+   "min_volume_mm3": 40,
+   "dice": 0.8907579210940259,
+   "gt": 18,
+   "detected": 17,
+   "pred": 29,
+   "false_positives": 13,
+   "sensitivity": 0.9444444444444444
+  },
+  {
+   "scan": 1,
+   "min_volume_mm3": 80,
+   "dice": 0.8907579210940259,
+   "gt": 18,
+   "detected": 17,
+   "pred": 19,
+   "false_positives": 3,
+   "sensitivity": 0.9444444444444444
+  },
+  {
+   "scan": 1,
+   "min_volume_mm3": 160,
+   "dice": 0.8907579210940259,
+   "gt": 18,
+   "detected": 17,
+   "pred": 16,
+   "false_positives": 0,
+   "sensitivity": 0.9444444444444444
+  },
+  {
+   "scan": 2,
+   "min_volume_mm3": 0,
+   "dice": 0.8451583533849255,
+   "gt": 18,
+   "detected": 16,
+   "pred": 746,
+   "false_positives": 730,
+   "sensitivity": 0.8888888888888888
+  },
+  {
+   "scan": 2,
+   "min_volume_mm3": 5,
+   "dice": 0.8451583533849255,
+   "gt": 18,
+   "detected": 16,
+   "pred": 41,
+   "false_positives": 25,
+   "sensitivity": 0.8888888888888888
+  },
+  {
+   "scan": 2,
+   "min_volume_mm3": 10,
+   "dice": 0.8451583533849255,
+   "gt": 18,
+   "detected": 16,
+   "pred": 41,
+   "false_positives": 25,
+   "sensitivity": 0.8888888888888888
+  },
+  {
+   "scan": 2,
+   "min_volume_mm3": 20,
+   "dice": 0.8451583533849255,
+   "gt": 18,
+   "detected": 16,
+   "pred": 40,
+   "false_positives": 24,
+   "sensitivity": 0.8888888888888888
+  },
+  {
+   "scan": 2,
+   "min_volume_mm3": 40,
+   "dice": 0.8451583533849255,
+   "gt": 18,
+   "detected": 16,
+   "pred": 35,
+   "false_positives": 19,
+   "sensitivity": 0.8888888888888888
+  },
+  {
+   "scan": 2,
+   "min_volume_mm3": 80,
+   "dice": 0.8451583533849255,
+   "gt": 18,
+   "detected": 16,
+   "pred": 17,
+   "false_positives": 1,
+   "sensitivity": 0.8888888888888888
+  },
+  {
+   "scan": 2,
+   "min_volume_mm3": 160,
+   "dice": 0.8451583533849255,
+   "gt": 18,
+   "detected": 16,
+   "pred": 16,
+   "false_positives": 0,
+   "sensitivity": 0.8888888888888888
+  },
+  {
+   "scan": 3,
+   "min_volume_mm3": 0,
+   "dice": 0.8815830584967888,
+   "gt": 18,
+   "detected": 18,
+   "pred": 779,
+   "false_positives": 761,
+   "sensitivity": 1.0
+  },
+  {
+   "scan": 3,
+   "min_volume_mm3": 5,
+   "dice": 0.8815830584967888,
+   "gt": 18,
+   "detected": 17,
+   "pred": 42,
+   "false_positives": 25,
+   "sensitivity": 0.9444444444444444
+  },
+  {
+   "scan": 3,
+   "min_volume_mm3": 10,
+   "dice": 0.8815830584967888,
+   "gt": 18,
+   "detected": 17,
+   "pred": 42,
+   "false_positives": 25,
+   "sensitivity": 0.9444444444444444
+  },
+  {
+   "scan": 3,
+   "min_volume_mm3": 20,
+   "dice": 0.8815830584967888,
+   "gt": 18,
+   "detected": 17,
+   "pred": 41,
+   "false_positives": 24,
+   "sensitivity": 0.9444444444444444
+  },
+  {
+   "scan": 3,
+   "min_volume_mm3": 40,
+   "dice": 0.8815830584967888,
+   "gt": 18,
+   "detected": 17,
+   "pred": 31,
+   "false_positives": 14,
+   "sensitivity": 0.9444444444444444
+  },
+  {
+   "scan": 3,
+   "min_volume_mm3": 80,
+   "dice": 0.8815830584967888,
+   "gt": 18,
+   "detected": 17,
+   "pred": 21,
+   "false_positives": 4,
+   "sensitivity": 0.9444444444444444
+  },
+  {
+   "scan": 3,
+   "min_volume_mm3": 160,
+   "dice": 0.8815830584967888,
+   "gt": 18,
+   "detected": 17,
+   "pred": 17,
+   "false_positives": 0,
+   "sensitivity": 0.9444444444444444
+  },
+  {
+   "scan": 4,
+   "min_volume_mm3": 0,
+   "dice": 0.8812332532971431,
+   "gt": 17,
+   "detected": 16,
+   "pred": 755,
+   "false_positives": 739,
+   "sensitivity": 0.9411764705882353
+  },
+  {
+   "scan": 4,
+   "min_volume_mm3": 5,
+   "dice": 0.8812332532971431,
+   "gt": 17,
+   "detected": 16,
+   "pred": 41,
+   "false_positives": 25,
+   "sensitivity": 0.9411764705882353
+  },
+  {
+   "scan": 4,
+   "min_volume_mm3": 10,
+   "dice": 0.8812332532971431,
+   "gt": 17,
+   "detected": 16,
+   "pred": 41,
+   "false_positives": 25,
+   "sensitivity": 0.9411764705882353
+  },
+  {
+   "scan": 4,
+   "min_volume_mm3": 20,
+   "dice": 0.8812332532971431,
+   "gt": 17,
+   "detected": 16,
+   "pred": 37,
+   "false_positives": 21,
+   "sensitivity": 0.9411764705882353
+  },
+  {
+   "scan": 4,
+   "min_volume_mm3": 40,
+   "dice": 0.8812332532971431,
+   "gt": 17,
+   "detected": 16,
+   "pred": 32,
+   "false_positives": 16,
+   "sensitivity": 0.9411764705882353
+  },
+  {
+   "scan": 4,
+   "min_volume_mm3": 80,
+   "dice": 0.8812332532971431,
+   "gt": 17,
+   "detected": 16,
+   "pred": 21,
+   "false_positives": 5,
+   "sensitivity": 0.9411764705882353
+  },
+  {
+   "scan": 4,
+   "min_volume_mm3": 160,
+   "dice": 0.8812332532971431,
+   "gt": 17,
+   "detected": 16,
+   "pred": 16,
+   "false_positives": 0,
+   "sensitivity": 0.9411764705882353
+  },
+  {
+   "scan": 5,
+   "min_volume_mm3": 0,
+   "dice": 0.7891047883414296,
+   "gt": 18,
+   "detected": 16,
+   "pred": 761,
+   "false_positives": 745,
+   "sensitivity": 0.8888888888888888
+  },
+  {
+   "scan": 5,
+   "min_volume_mm3": 5,
+   "dice": 0.7891047883414296,
+   "gt": 18,
+   "detected": 15,
+   "pred": 40,
+   "false_positives": 25,
+   "sensitivity": 0.8333333333333334
+  },
+  {
+   "scan": 5,
+   "min_volume_mm3": 10,
+   "dice": 0.7891047883414296,
+   "gt": 18,
+   "detected": 15,
+   "pred": 40,
+   "false_positives": 25,
+   "sensitivity": 0.8333333333333334
+  },
+  {
+   "scan": 5,
+   "min_volume_mm3": 20,
+   "dice": 0.7891047883414296,
+   "gt": 18,
+   "detected": 15,
+   "pred": 36,
+   "false_positives": 21,
+   "sensitivity": 0.8333333333333334
+  },
+  {
+   "scan": 5,
+   "min_volume_mm3": 40,
+   "dice": 0.7891047883414296,
+   "gt": 18,
+   "detected": 15,
+   "pred": 28,
+   "false_positives": 13,
+   "sensitivity": 0.8333333333333334
+  },
+  {
+   "scan": 5,
+   "min_volume_mm3": 80,
+   "dice": 0.7891047883414296,
+   "gt": 18,
+   "detected": 15,
+   "pred": 19,
+   "false_positives": 4,
+   "sensitivity": 0.8333333333333334
+  },
+  {
+   "scan": 5,
+   "min_volume_mm3": 160,
+   "dice": 0.7891047883414296,
+   "gt": 18,
+   "detected": 15,
+   "pred": 15,
+   "false_positives": 0,
+   "sensitivity": 0.8333333333333334
+  },
+  {
+   "scan": 6,
+   "min_volume_mm3": 0,
+   "dice": 0.7578248736707143,
+   "gt": 17,
+   "detected": 15,
+   "pred": 743,
+   "false_positives": 728,
+   "sensitivity": 0.8823529411764706
+  },
+  {
+   "scan": 6,
+   "min_volume_mm3": 5,
+   "dice": 0.7578248736707143,
+   "gt": 17,
+   "detected": 14,
+   "pred": 39,
+   "false_positives": 25,
+   "sensitivity": 0.8235294117647058
+  },
+  {
+   "scan": 6,
+   "min_volume_mm3": 10,
+   "dice": 0.7578248736707143,
+   "gt": 17,
+   "detected": 14,
+   "pred": 39,
+   "false_positives": 25,
+   "sensitivity": 0.8235294117647058
+  },
+  {
+   "scan": 6,
+   "min_volume_mm3": 20,
+   "dice": 0.7578248736707143,
+   "gt": 17,
+   "detected": 14,
+   "pred": 37,
+   "false_positives": 23,
+   "sensitivity": 0.8235294117647058
+  },
+  {
+   "scan": 6,
+   "min_volume_mm3": 40,
+   "dice": 0.7578248736707143,
+   "gt": 17,
+   "detected": 14,
+   "pred": 30,
+   "false_positives": 16,
+   "sensitivity": 0.8235294117647058
+  },
+  {
+   "scan": 6,
+   "min_volume_mm3": 80,
+   "dice": 0.7578248736707143,
+   "gt": 17,
+   "detected": 14,
+   "pred": 21,
+   "false_positives": 7,
+   "sensitivity": 0.8235294117647058
+  },
+  {
+   "scan": 6,
+   "min_volume_mm3": 160,
+   "dice": 0.7578248736707143,
+   "gt": 17,
+   "detected": 14,
+   "pred": 14,
+   "false_positives": 0,
+   "sensitivity": 0.8235294117647058
+  },
+  {
+   "scan": 7,
+   "min_volume_mm3": 0,
+   "dice": 0.8838313872946765,
+   "gt": 18,
+   "detected": 17,
+   "pred": 685,
+   "false_positives": 668,
+   "sensitivity": 0.9444444444444444
+  },
+  {
+   "scan": 7,
+   "min_volume_mm3": 5,
+   "dice": 0.8838313872946765,
+   "gt": 18,
+   "detected": 17,
+   "pred": 42,
+   "false_positives": 25,
+   "sensitivity": 0.9444444444444444
+  },
+  {
+   "scan": 7,
+   "min_volume_mm3": 10,
+   "dice": 0.8838313872946765,
+   "gt": 18,
+   "detected": 17,
+   "pred": 42,
+   "false_positives": 25,
+   "sensitivity": 0.9444444444444444
+  },
+  {
+   "scan": 7,
+   "min_volume_mm3": 20,
+   "dice": 0.8838313872946765,
+   "gt": 18,
+   "detected": 17,
+   "pred": 40,
+   "false_positives": 23,
+   "sensitivity": 0.9444444444444444
+  },
+  {
+   "scan": 7,
+   "min_volume_mm3": 40,
+   "dice": 0.8838313872946765,
+   "gt": 18,
+   "detected": 17,
+   "pred": 32,
+   "false_positives": 15,
+   "sensitivity": 0.9444444444444444
+  },
+  {
+   "scan": 7,
+   "min_volume_mm3": 80,
+   "dice": 0.8838313872946765,
+   "gt": 18,
+   "detected": 17,
+   "pred": 20,
+   "false_positives": 3,
+   "sensitivity": 0.9444444444444444
+  },
+  {
+   "scan": 7,
+   "min_volume_mm3": 160,
+   "dice": 0.8838313872946765,
+   "gt": 18,
+   "detected": 17,
+   "pred": 17,
+   "false_positives": 0,
+   "sensitivity": 0.9444444444444444
+  },
+  {
+   "scan": 8,
+   "min_volume_mm3": 0,
+   "dice": 0.9075524913820119,
+   "gt": 17,
+   "detected": 17,
+   "pred": 694,
+   "false_positives": 677,
+   "sensitivity": 1.0
+  },
+  {
+   "scan": 8,
+   "min_volume_mm3": 5,
+   "dice": 0.9075524913820119,
+   "gt": 17,
+   "detected": 17,
+   "pred": 42,
+   "false_positives": 25,
+   "sensitivity": 1.0
+  },
+  {
+   "scan": 8,
+   "min_volume_mm3": 10,
+   "dice": 0.9075524913820119,
+   "gt": 17,
+   "detected": 17,
+   "pred": 42,
+   "false_positives": 25,
+   "sensitivity": 1.0
+  },
+  {
+   "scan": 8,
+   "min_volume_mm3": 20,
+   "dice": 0.9075524913820119,
+   "gt": 17,
+   "detected": 17,
+   "pred": 42,
+   "false_positives": 25,
+   "sensitivity": 1.0
+  },
+  {
+   "scan": 8,
+   "min_volume_mm3": 40,
+   "dice": 0.9075524913820119,
+   "gt": 17,
+   "detected": 17,
+   "pred": 37,
+   "false_positives": 20,
+   "sensitivity": 1.0
+  },
+  {
+   "scan": 8,
+   "min_volume_mm3": 80,
+   "dice": 0.9075524913820119,
+   "gt": 17,
+   "detected": 17,
+   "pred": 26,
+   "false_positives": 9,
+   "sensitivity": 1.0
+  },
+  {
+   "scan": 8,
+   "min_volume_mm3": 160,
+   "dice": 0.9075524913820119,
+   "gt": 17,
+   "detected": 17,
+   "pred": 17,
+   "false_positives": 0,
+   "sensitivity": 1.0
+  },
+  {
+   "scan": 9,
+   "min_volume_mm3": 0,
+   "dice": 0.8475026567481403,
+   "gt": 18,
+   "detected": 16,
+   "pred": 728,
+   "false_positives": 712,
+   "sensitivity": 0.8888888888888888
+  },
+  {
+   "scan": 9,
+   "min_volume_mm3": 5,
+   "dice": 0.8475026567481403,
+   "gt": 18,
+   "detected": 15,
+   "pred": 39,
+   "false_positives": 24,
+   "sensitivity": 0.8333333333333334
+  },
+  {
+   "scan": 9,
+   "min_volume_mm3": 10,
+   "dice": 0.8475026567481403,
+   "gt": 18,
+   "detected": 15,
+   "pred": 39,
+   "false_positives": 24,
+   "sensitivity": 0.8333333333333334
+  },
+  {
+   "scan": 9,
+   "min_volume_mm3": 20,
+   "dice": 0.8475026567481403,
+   "gt": 18,
+   "detected": 15,
+   "pred": 39,
+   "false_positives": 24,
+   "sensitivity": 0.8333333333333334
+  },
+  {
+   "scan": 9,
+   "min_volume_mm3": 40,
+   "dice": 0.8475026567481403,
+   "gt": 18,
+   "detected": 15,
+   "pred": 31,
+   "false_positives": 16,
+   "sensitivity": 0.8333333333333334
+  },
+  {
+   "scan": 9,
+   "min_volume_mm3": 80,
+   "dice": 0.8475026567481403,
+   "gt": 18,
+   "detected": 15,
+   "pred": 17,
+   "false_positives": 2,
+   "sensitivity": 0.8333333333333334
+  },
+  {
+   "scan": 9,
+   "min_volume_mm3": 160,
+   "dice": 0.8475026567481403,
+   "gt": 18,
+   "detected": 15,
+   "pred": 15,
+   "false_positives": 0,
+   "sensitivity": 0.8333333333333334
+  }
+ ]
+}

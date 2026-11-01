@@ -1,0 +1,42 @@
+{
+ "volumes": 130,
+ "comparisons": 390,
+ "checks": {
+  "scipy_exact": {
+   "passed": 390,
+   "total": 390
+  },
+  "cc3d_partition": {
+   "passed": 390,
+   "total": 390
+  },
+  "stream_table": {
+   "passed": 390,
+   "total": 390
+  },
+  "tiled_exact": {
+   "passed": 390,
+   "total": 390
+  },
+  "stats_vs_scipy": {
+   "passed": 390,
+   "total": 390
+  }
+ },
+ "per_connectivity": {
+  "6": {
+   "passed": 130,
+   "total": 130
+  },
+  "18": {
+   "passed": 130,
+   "total": 130
+  },
+  "26": {
+   "passed": 130,
+   "total": 130
+  }
+ },
+ "components_checked": 76770,
+ "foreground_voxels_checked": 1470597
+}

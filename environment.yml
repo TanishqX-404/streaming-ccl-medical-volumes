@@ -1,0 +1,17 @@
+name: ufccl3d
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.10
+  - numpy>=2.0
+  - numba>=0.60
+  - scipy
+  - nibabel
+  - pydicom
+  - matplotlib
+  - psutil
+  - pytest
+  - hypothesis
+  - pip
+  - pip:
+      - connected-components-3d

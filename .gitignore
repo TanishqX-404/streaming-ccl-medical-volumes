@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.nbi
+*.nbc
+.pytest_cache/
+.hypothesis/
+.venv/
+venv/
+*.egg-info/
+
+# data (never commit scans, raw volumes or downloaded archives)
+data/
+*.nii
+*.nii.gz
+*.dcm
+*.u8
+*.i32
+*.tar
+*.tar.gz
+msd_lung/
+Task*/
+out/
+lesion_out/
+
+# logs and scratch
+*.log
+
+# LaTeX build output and generated previews
+report/*.aux
+report/*.log
+report/*.out
+report/*.toc
+report/*.fls
+report/*.fdb_latexmk
+report/*.synctex.gz
+report/*.zip
+report/figures/fig_*.png
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

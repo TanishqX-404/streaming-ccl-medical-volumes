@@ -1,0 +1,480 @@
+{
+ "hardware": {
+  "python": "3.10.11",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "numpy": "2.2.6",
+  "numba": "0.67.0",
+  "scipy": "1.15.3",
+  "cc3d": "4.x",
+  "cpu": "AMD Ryzen 5 5600H with Radeon Graphics",
+  "ram_gb": 15.4,
+  "cores": 6
+ },
+ "rows": [
+  {
+   "n": 492,
+   "seconds": 0.020070800004759803,
+   "baseline_mb": 105.62109375,
+   "peak_mb": 114.5546875,
+   "delta_mb": 8.93359375,
+   "experiment": "cube",
+   "variant": "ufccl",
+   "shape": [
+    128,
+    128,
+    128
+   ],
+   "voxels": 2097152
+  },
+  {
+   "n": 492,
+   "seconds": 0.0228110000025481,
+   "baseline_mb": 105.78515625,
+   "peak_mb": 115.44921875,
+   "delta_mb": 9.6640625,
+   "experiment": "cube",
+   "variant": "ufccl+stats",
+   "shape": [
+    128,
+    128,
+    128
+   ],
+   "voxels": 2097152
+  },
+  {
+   "n": 492,
+   "seconds": 0.04221770000003744,
+   "baseline_mb": 74.71875,
+   "peak_mb": 84.51171875,
+   "delta_mb": 9.79296875,
+   "experiment": "cube",
+   "variant": "scipy",
+   "shape": [
+    128,
+    128,
+    128
+   ],
+   "voxels": 2097152
+  },
+  {
+   "n": 492,
+   "seconds": 0.012676099999225698,
+   "baseline_mb": 74.53515625,
+   "peak_mb": 87.68359375,
+   "delta_mb": 13.1484375,
+   "experiment": "cube",
+   "variant": "cc3d",
+   "shape": [
+    128,
+    128,
+    128
+   ],
+   "voxels": 2097152
+  },
+  {
+   "n": 492,
+   "seconds": 0.03608780000649858,
+   "baseline_mb": 125.01953125,
+   "peak_mb": 125.05078125,
+   "delta_mb": 0.03125,
+   "experiment": "cube",
+   "variant": "stream",
+   "shape": [
+    128,
+    128,
+    128
+   ],
+   "voxels": 2097152
+  },
+  {
+   "n": 492,
+   "seconds": 0.10973999999987427,
+   "baseline_mb": 106.234375,
+   "peak_mb": 138.796875,
+   "delta_mb": 32.5625,
+   "experiment": "cube",
+   "variant": "tiled",
+   "shape": [
+    128,
+    128,
+    128
+   ],
+   "voxels": 2097152
+  },
+  {
+   "n": 4264,
+   "seconds": 0.14217820001067594,
+   "baseline_mb": 105.078125,
+   "peak_mb": 185.515625,
+   "delta_mb": 80.4375,
+   "experiment": "cube",
+   "variant": "ufccl",
+   "shape": [
+    256,
+    256,
+    256
+   ],
+   "voxels": 16777216
+  },
+  {
+   "n": 4264,
+   "seconds": 0.17249029999948107,
+   "baseline_mb": 105.8046875,
+   "peak_mb": 188.546875,
+   "delta_mb": 82.7421875,
+   "experiment": "cube",
+   "variant": "ufccl+stats",
+   "shape": [
+    256,
+    256,
+    256
+   ],
+   "voxels": 16777216
+  },
+  {
+   "n": 4264,
+   "seconds": 0.25580270000500605,
+   "baseline_mb": 74.7265625,
+   "peak_mb": 155.28125,
+   "delta_mb": 80.5546875,
+   "experiment": "cube",
+   "variant": "scipy",
+   "shape": [
+    256,
+    256,
+    256
+   ],
+   "voxels": 16777216
+  },
+  {
+   "n": 4264,
+   "seconds": 0.08286209999641869,
+   "baseline_mb": 74.43359375,
+   "peak_mb": 186.75390625,
+   "delta_mb": 112.3203125,
+   "experiment": "cube",
+   "variant": "cc3d",
+   "shape": [
+    256,
+    256,
+    256
+   ],
+   "voxels": 16777216
+  },
+  {
+   "n": 4264,
+   "seconds": 0.2062829999922542,
+   "baseline_mb": 106.0859375,
+   "peak_mb": 107.515625,
+   "delta_mb": 1.4296875,
+   "experiment": "cube",
+   "variant": "stream",
+   "shape": [
+    256,
+    256,
+    256
+   ],
+   "voxels": 16777216
+  },
+  {
+   "n": 4264,
+   "seconds": 1.0508049999916693,
+   "baseline_mb": 106.5234375,
+   "peak_mb": 140.26171875,
+   "delta_mb": 33.73828125,
+   "experiment": "cube",
+   "variant": "tiled",
+   "shape": [
+    256,
+    256,
+    256
+   ],
+   "voxels": 16777216
+  },
+  {
+   "n": 14207,
+   "seconds": 0.4657444000040414,
+   "baseline_mb": 105.14453125,
+   "peak_mb": 378.4375,
+   "delta_mb": 273.29296875,
+   "experiment": "cube",
+   "variant": "ufccl",
+   "shape": [
+    384,
+    384,
+    384
+   ],
+   "voxels": 56623104
+  },
+  {
+   "n": 14207,
+   "seconds": 0.564448999997694,
+   "baseline_mb": 105.9453125,
+   "peak_mb": 379.890625,
+   "delta_mb": 273.9453125,
+   "experiment": "cube",
+   "variant": "ufccl+stats",
+   "shape": [
+    384,
+    384,
+    384
+   ],
+   "voxels": 56623104
+  },
+  {
+   "n": 14207,
+   "seconds": 0.8340055000007851,
+   "baseline_mb": 74.58203125,
+   "peak_mb": 345.85546875,
+   "delta_mb": 271.2734375,
+   "experiment": "cube",
+   "variant": "scipy",
+   "shape": [
+    384,
+    384,
+    384
+   ],
+   "voxels": 56623104
+  },
+  {
+   "n": 14207,
+   "seconds": 0.28383210000174586,
+   "baseline_mb": 74.4765625,
+   "peak_mb": 454.17578125,
+   "delta_mb": 379.69921875,
+   "experiment": "cube",
+   "variant": "cc3d",
+   "shape": [
+    384,
+    384,
+    384
+   ],
+   "voxels": 56623104
+  },
+  {
+   "n": 14207,
+   "seconds": 0.789923499993165,
+   "baseline_mb": 106.43359375,
+   "peak_mb": 110.1484375,
+   "delta_mb": 3.71484375,
+   "experiment": "cube",
+   "variant": "stream",
+   "shape": [
+    384,
+    384,
+    384
+   ],
+   "voxels": 56623104
+  },
+  {
+   "n": 14207,
+   "seconds": 4.440292799990857,
+   "baseline_mb": 106.77734375,
+   "peak_mb": 143.984375,
+   "delta_mb": 37.20703125,
+   "experiment": "cube",
+   "variant": "tiled",
+   "shape": [
+    384,
+    384,
+    384
+   ],
+   "voxels": 56623104
+  },
+  {
+   "n": 32818,
+   "seconds": 1.1404097999911755,
+   "baseline_mb": 105.27734375,
+   "peak_mb": 767.453125,
+   "delta_mb": 662.17578125,
+   "experiment": "cube",
+   "variant": "ufccl",
+   "shape": [
+    512,
+    512,
+    512
+   ],
+   "voxels": 134217728
+  },
+  {
+   "n": 32818,
+   "seconds": 1.3261010000132956,
+   "baseline_mb": 105.5234375,
+   "peak_mb": 768.7578125,
+   "delta_mb": 663.234375,
+   "experiment": "cube",
+   "variant": "ufccl+stats",
+   "shape": [
+    512,
+    512,
+    512
+   ],
+   "voxels": 134217728
+  },
+  {
+   "n": 32818,
+   "seconds": 2.020390099991346,
+   "baseline_mb": 75.07421875,
+   "peak_mb": 718.8203125,
+   "delta_mb": 643.74609375,
+   "experiment": "cube",
+   "variant": "scipy",
+   "shape": [
+    512,
+    512,
+    512
+   ],
+   "voxels": 134217728
+  },
+  {
+   "n": 32818,
+   "seconds": 0.704922799995984,
+   "baseline_mb": 74.76953125,
+   "peak_mb": 974.52734375,
+   "delta_mb": 899.7578125,
+   "experiment": "cube",
+   "variant": "cc3d",
+   "shape": [
+    512,
+    512,
+    512
+   ],
+   "voxels": 134217728
+  },
+  {
+   "n": 32818,
+   "seconds": 1.5463801000005333,
+   "baseline_mb": 105.84375,
+   "peak_mb": 115.41796875,
+   "delta_mb": 9.57421875,
+   "experiment": "cube",
+   "variant": "stream",
+   "shape": [
+    512,
+    512,
+    512
+   ],
+   "voxels": 134217728
+  },
+  {
+   "n": 32818,
+   "seconds": 11.286613399992348,
+   "baseline_mb": 106.3515625,
+   "peak_mb": 149.78125,
+   "delta_mb": 43.4296875,
+   "experiment": "cube",
+   "variant": "tiled",
+   "shape": [
+    512,
+    512,
+    512
+   ],
+   "voxels": 134217728
+  },
+  {
+   "n": 2184,
+   "seconds": 0.07036950001202058,
+   "baseline_mb": 105.40625,
+   "peak_mb": 145.64453125,
+   "delta_mb": 40.23828125,
+   "experiment": "depth",
+   "variant": "ufccl",
+   "shape": [
+    128,
+    256,
+    256
+   ],
+   "voxels": 8388608
+  },
+  {
+   "n": 2184,
+   "seconds": 0.10650710000481922,
+   "baseline_mb": 106.21875,
+   "peak_mb": 107.4375,
+   "delta_mb": 1.21875,
+   "experiment": "depth",
+   "variant": "stream",
+   "shape": [
+    128,
+    256,
+    256
+   ],
+   "voxels": 8388608
+  },
+  {
+   "n": 8586,
+   "seconds": 0.28560630000720266,
+   "baseline_mb": 105.64453125,
+   "peak_mb": 266.6875,
+   "delta_mb": 161.04296875,
+   "experiment": "depth",
+   "variant": "ufccl",
+   "shape": [
+    512,
+    256,
+    256
+   ],
+   "voxels": 33554432
+  },
+  {
+   "n": 8586,
+   "seconds": 0.4183188000024529,
+   "baseline_mb": 106.2578125,
+   "peak_mb": 108.03515625,
+   "delta_mb": 1.77734375,
+   "experiment": "depth",
+   "variant": "stream",
+   "shape": [
+    512,
+    256,
+    256
+   ],
+   "voxels": 33554432
+  },
+  {
+   "n": 33604,
+   "seconds": 1.23692559999472,
+   "baseline_mb": 105.375,
+   "peak_mb": 766.95703125,
+   "delta_mb": 661.58203125,
+   "experiment": "depth",
+   "variant": "ufccl",
+   "shape": [
+    2048,
+    256,
+    256
+   ],
+   "voxels": 134217728
+  },
+  {
+   "n": 33604,
+   "seconds": 1.6508212000044296,
+   "baseline_mb": 106.0546875,
+   "peak_mb": 110.171875,
+   "delta_mb": 4.1171875,
+   "experiment": "depth",
+   "variant": "stream",
+   "shape": [
+    2048,
+    256,
+    256
+   ],
+   "voxels": 134217728
+  },
+  {
+   "n": 133220,
+   "seconds": 9.142002499997034,
+   "baseline_mb": 106.0703125,
+   "peak_mb": 141.99609375,
+   "delta_mb": 35.92578125,
+   "experiment": "depth",
+   "variant": "stream",
+   "shape": [
+    8192,
+    256,
+    256
+   ],
+   "voxels": 536870912
+  }
+ ]
+}

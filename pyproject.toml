@@ -1,0 +1,10 @@
+[project]
+name = "ufccl3d"
+version = "0.1.0"
+description = "Union-Find connected component labeling for volumetric medical scans"
+requires-python = ">=3.10"
+dependencies = ["numpy", "numba", "scipy"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
